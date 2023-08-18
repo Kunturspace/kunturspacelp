@@ -2,12 +2,35 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KunturSpace</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/estilos.css">  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <meta name="theme-color" content="114f8a">
+  
+  <!-- Primary Meta Tags -->
+  <title>Kunturspace - Sensoramiento Remoto</title>
+  <meta name="title" content="Kunturspace - Sensoramiento Remoto" />
+  <meta name="description" content="Insights del campo para toma de decisiones. Plataforma que brinda una caja de herramientas para analizar el estado de los campos remotamente y mejorar la toma de decisiones" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://kunturspace.com/" />
+  <meta property="og:title" content="Kunturspace - Sensoramiento Remoto" />
+  <meta property="og:description" content="Insights del campo para toma de decisiones. Plataforma que brinda una caja de herramientas para analizar el estado de los campos remotamente y mejorar la toma de decisiones" />
+  <meta property="og:image" content="http://kunturspace.com/images/KunturSpace_logo.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="http://kunturspace.com/" />
+  <meta property="twitter:title" content="Kunturspace - Sensoramiento Remoto" />
+  <meta property="twitter:description" content="Insights del campo para toma de decisiones. Plataforma que brinda una caja de herramientas para analizar el estado de los campos remotamente y mejorar la toma de decisiones" />
+  <meta property="twitter:image" content="http://kunturspace.com/images/KunturSpace_logo.png" />
+
+  <!-- Meta Tags Generated with https://metatags.io -->
+
 </head>
 <body>
 
@@ -138,13 +161,14 @@
           </div>
 
           <!--<div class="contactus__container container">-->
-            <form class="contactus__form">
+            <form class="contactus__form" action="https://formspree.io/f/xknljawa" method="POST">
               <div class="contactus_inputs">
-                <input type="text" placeholder="Nombre y Apellido" class="contactus__input" required>
-                <input type="email" placeholder="Email" class="contactus__input" required>
-                <input type="text" placeholder="Empresa" class="contactus__input" required>
-                <input type="text" placeholder="Celular" class="contactus__input" required>
-                <input type="text" placeholder="Sector/Industria" class="contactus__input">
+                <input type="text" name="NombreApellido" placeholder="Nombre y Apellido" class="contactus__input" required>
+                <input type="email" name="Email" placeholder="Email" class="contactus__input" required>
+                <input type="text" name="Empresa" placeholder="Empresa" class="contactus__input" required>
+                <input type="text" name="Celular" placeholder="Celular" class="contactus__input" required>
+                <input type="text" name="SectorIndustria" placeholder="Sector/Industria" class="contactus__input">
+                <input type="text" name="Mensaje" placeholder="Describe tu solicitud" class="contactus__input">
                 <input type="submit" value="Contáctanos" class="contactus__submit">
               </div>
             </form>
